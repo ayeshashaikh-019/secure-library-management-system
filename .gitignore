@@ -1,0 +1,14 @@
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local logs and temporary database exports
+*.log
+*.sql.bak
+*.tmp
+
+# Keep secrets out of source control
+.env
+.env.*
